@@ -7,7 +7,7 @@ from sqlalchemy import create_engine
 import psycopg2
 from config import db_password
 import time
-file_dir = '/Users/trahin/Desktop/module8_challenge'
+file_dir = '/Users/all3n8h1h/Desktop/module8_challenge'
 
 
 def new_files_to_load(wiki_file,kaggle_file,ratings):
@@ -261,9 +261,3 @@ def new_files_to_load(wiki_file,kaggle_file,ratings):
     print('Files have been updated and loaded successfully.')
 
 new_files_to_load('wikipedia-movies.json', 'movies_metadata.csv', 'ratings.csv')
-        
-
-
-
-
-
